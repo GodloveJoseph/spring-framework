@@ -24,6 +24,8 @@ import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
 
 /**
+ *
+ * 解析xml入口
  * Standalone XML application context, taking the context definition files
  * from the class path, interpreting plain paths as class path resource names
  * that include the package path (e.g. "mypackage/myresource.txt"). Useful for

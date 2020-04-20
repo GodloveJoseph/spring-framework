@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright 2002-2019 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -68,6 +68,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.util.xml.DomUtils;
 
 /**
+ * 解析xml
  * Stateful delegate class used to parse XML bean definitions.
  * Intended for use by both the main parser and any extension
  * {@link BeanDefinitionParser BeanDefinitionParsers} or

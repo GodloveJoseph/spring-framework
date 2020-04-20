@@ -40,6 +40,8 @@ import org.springframework.util.ResourceUtils;
 import org.springframework.util.StringUtils;
 
 /**
+ *
+ *解析xml入口
  * Default implementation of the {@link BeanDefinitionDocumentReader} interface that
  * reads bean definitions according to the "spring-beans" DTD and XSD format
  * (Spring's default XML bean definition format).
@@ -161,6 +163,7 @@ public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocume
 	}
 
 	/**
+	 * 解析自定义标签入口
 	 * Parse the elements at the root level in the document:
 	 * "import", "alias", "bean".
 	 * @param root the DOM root element of the document
